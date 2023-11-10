@@ -1,0 +1,26 @@
+/* Sidebar.css */
+.sidebar {
+  background-color: rgb(17, 99, 2); /* Blue blur background color with transparency */
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  backdrop-filter: blur(10px); /* Apply blur effect to the background */
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px;
+  text-decoration: none;
+  transition: text-decoration 0.3s, box-shadow 0.3s; /* Add transition for text-decoration and box-shadow */
+}
+
+.sidebar button:hover {
+  text-decoration: underline; /* Underline active button on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add depth effect on hover */
+}

@@ -1,0 +1,56 @@
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.imagediv {
+  order: 1;
+}
+
+.login-container {
+  order: 2;
+  margin-left: 20px; /* Adjust the spacing between image and form */
+  text-align: center;
+}
+
+.login-image {
+  width: 100%; /* Make the image fill its container */
+  max-width: 400px; /* Limit the maximum width of the image */
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.login-heading {
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #3498db; /* Blue border color */
+  border-radius: 5px;
+  transition: border-color 0.3s ease; /* Add transition effect on border color change */
+}
+
+.input-field:hover {
+  border-color: #2980b9; /* Darker blue color on hover */
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition effect on background color change */
+}
+
+.submit-button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}

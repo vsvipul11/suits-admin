@@ -1,0 +1,121 @@
+/* Add your custom styles for AdminPanel component here */
+.container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+   
+  }
+
+ 
+  table {
+    
+    border-collapse: collapse;
+   margin: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  th {
+    background-color: #ffffff;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ffffff;
+  }
+  tr:nth-child(odd) {
+    background-color: #eae7e7;
+  }
+
+  tr:hover {
+    background-color: #ffffff;
+  }
+  
+  /* Admin.css */
+
+
+  
+  .heading {
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 3vw;
+  }
+  
+  .filter-buttons button {
+    background-color: #ddd;
+    color: #000000;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+
+  }
+  
+  .filter-buttons button.active {
+    background-color: #d3da04;
+  }
+  
+  /* .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-table th, .user-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  } */
+  
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination span {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 8px 12px;
+    border: 1px solid #515151;
+    border-radius: 4px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 0.3s;
+    background-color: #ddd;
+  }
+  
+  .pagination span.active {
+    background-color: #e2e506;
+    color: #000000;
+  }
+  
+  .paymentActionButton{
+    border-radius: 10px;
+    border: 0px;
+    background-color: #51c8ff;   
+    margin: 3px;
+  }
+  .paymentActionButton:hover{
+    background-color: #ddd;
+  }
+  .users-table{
+    display: 'flex';
+    flex-direction: 'column';
+    
+
+  }
+  .user-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the default text color */
+  }
+  

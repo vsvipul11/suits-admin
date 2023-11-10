@@ -1,0 +1,21 @@
+/* styles.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    backdrop-filter: blur(10px); /* Adds blur effect to the container */
+    background: rgba(255, 255, 255, 0.1); /* Adds a slight white background for better visibility */
+    border-radius: 10px; /* Optional: Adds rounded corners to the container */
+  }
+  
+  .text-field {
+    margin: 10px;
+    width: 300px;
+  }
+  
+  .button {
+    margin-top: 20px;
+  }
+  
