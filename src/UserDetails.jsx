@@ -245,7 +245,7 @@ const PaymentPopup = ({ payment, onClose }) => {
     return null;
   }
 
-  const { userID, ammount, paymentStatus, createdAt, paymentAddress } = payment.data;
+  const { userID, ammount, createdAt, paymentStatus, paymentAddress } = payment.data;
   const createdIST = new Date(createdAt * 1000).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
 
   return (
@@ -258,7 +258,7 @@ const PaymentPopup = ({ payment, onClose }) => {
         <br />
         <strong>Payment Status</strong> {paymentStatus}
         <br />
-        <strong>Created (IST):</strong> {createdAt}
+        <strong>Created (IST):</strong> {createdIST}
         <br />
         <strong>paymentAddress:</strong> {paymentAddress}
       </div>
