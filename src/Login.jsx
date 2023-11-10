@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import OTPVerification from './OtpVerification';
 import './Login.scss'; // Import the CSS file
-import login from './images/login.avif';
+import login from '../src/images/login.avif';
 
 const Login = () => {
   const [userId, setUserId] = useState('');
